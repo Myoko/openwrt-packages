@@ -399,7 +399,6 @@ header>.container>.brand,header > .fill > .container > .brand {
 
 header>.container>a[class=brand]:after,header > .fill > .container > a[class="brand"]:after {
 	position: absolute;
-	content:"TM";
 	font-size:0.9rem;
 	font-family:Tahoma;
 	position: absolute;
