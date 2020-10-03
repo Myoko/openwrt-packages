@@ -281,6 +281,8 @@ header .fill {
 header .fill .container {
 	height: 3rem;
 	padding: 0 1.25rem;
+	background: #f36c21;
+	background-color:#f36c21;
 }
 header>.container>.brand, header > .fill > .container > .brand {
 	font-size: 1.3rem;
