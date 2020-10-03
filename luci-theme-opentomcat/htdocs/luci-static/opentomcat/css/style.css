@@ -1023,7 +1023,7 @@ form.inline + form.inline,
 }
 
 .tabs>li[class~="active"]>a {
-	color: #AB47BC;
+	color: #f36c21;
 }
 
 .tabs > li:hover {
