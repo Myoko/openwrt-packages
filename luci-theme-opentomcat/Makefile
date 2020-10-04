@@ -7,15 +7,10 @@
 
 include $(TOPDIR)/rules.mk
 
-THEME_NAME:=Opentomcat
-THEME_TITLE:=Opentomcat Theme
-
-PKG_NAME:=luci-theme-$(THEME_NAME)
+LUCI_TITLE:=Opentomcat Theme
+LUCI_DEPENDS:=
 PKG_VERSION:=1.0.0
 PKG_RELEASE:=20201005
-
-
-include $(INCLUDE_DIR)/package.mk
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
