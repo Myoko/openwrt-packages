@@ -2,6 +2,6 @@
 	uci batch <<-EOF
 	set luci.themes.opentomcat=/luci-static/opentomcat
 	commit luci
-	EOF
+EOF
 exit 0
 
