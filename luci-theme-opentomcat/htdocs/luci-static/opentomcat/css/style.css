@@ -912,7 +912,7 @@ td > table > tbody > tr > td,
 
 .btn:active,.btn:focus,.btn:hover,.cbi-button:active,.cbi-button:focus,.cbi-button:hover,.cbi-page-actions .cbi-button-apply+.cbi-button-save:active,.cbi-page-actions .cbi-button-apply+.cbi-button-save:focus,.cbi-page-actions .cbi-button-apply+.cbi-button-save:hover {
 	outline: 0;
-	background-color: rgba(0,0,0,.87);
+	background-color: rgba(235,54,33,.87);
 	text-decoration: none
 }
 
@@ -980,7 +980,7 @@ form.inline + form.inline,
 .cbi-button-reload:hover{
 	color: #fff !important;
 	outline: 0;
-	background-color: rgba(0,0,0,.87);
+	background-color: rgba(235,54,33,.87);
 	text-decoration: none
 }
 
