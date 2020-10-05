@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ "$PKG_UPGRADE" != 1 ]; then
+	uci batch <<-EOF
+	set luci.themes.LEDE=/luci-static/lede
+	commit luci
+	EOF
+fi
+
+exit 0
+
