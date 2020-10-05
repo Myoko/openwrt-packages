@@ -1,8 +1,9 @@
 #!/bin/sh
-uci batch <<-EOF
+if [ "$PKG_UPGRADE" != 1 ]; then
+	uci batch <<-EOF
 	set luci.themes.Opentomcat=/luci-static/opentomcat
 	commit luci
-EOF
+	EOF
+fi
+
 exit 0
-
-
