@@ -6,8 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
-THEME_NAME:=LEDE
-THEME_TITLE:=LEDE
+THEME_NAME:=lede
+THEME_TITLE:=lede
 
 PKG_NAME:=luci-theme-$(THEME_NAME)
 PKG_VERSION:=1.0.0
