@@ -1027,7 +1027,7 @@ form.inline + form.inline,
 }
 
 .tabs > li:hover {
-	border-bottom: 0.18751rem solid #009688;
+	border-bottom: 0.18751rem solid #f36c21;
 }
 
 .cbi-section {
