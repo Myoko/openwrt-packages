@@ -6,8 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
-THEME_NAME:=Opentomcat
-THEME_TITLE:=Opentomcat
+THEME_NAME:=opentomcat
+THEME_TITLE:=opentomcat
 
 PKG_NAME:=luci-theme-$(THEME_NAME)
 PKG_VERSION:=0.3.5
